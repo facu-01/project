@@ -1,0 +1,15 @@
+{
+    "name": "backend",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "backend",
+    "shutdownAction": "none",
+    "extensions": [
+        "rebornix.ruby",
+        "castwide.solargraph",
+        "wingrunr21.vscode-ruby"
+    ],
+    // Open the sub-folder with the source code
+    "workspaceFolder": "/workspace/backend"
+}
