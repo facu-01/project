@@ -6,9 +6,14 @@
     "service": "backend",
     "shutdownAction": "none",
     "extensions": [
+        //ruby
         "rebornix.ruby",
         "castwide.solargraph",
-        "wingrunr21.vscode-ruby"
+        "wingrunr21.vscode-ruby",
+        "misogi.ruby-rubocop",
+        //generales
+        "eamodio.gitlens",
+        "TabNine.tabnine-vscode"
     ],
     // Open the sub-folder with the source code
     "workspaceFolder": "/workspace/backend"

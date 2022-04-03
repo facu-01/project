@@ -6,8 +6,14 @@
     "service": "frontend",
     "shutdownAction": "none",
     "extensions": [
+        //react
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "vincaslt.highlight-matching-tag",
+        "formulahendry.auto-rename-tag",
+        "planbcoding.vscode-react-refactor",
+        //generales
+        "eamodio.gitlens",
+        "TabNine.tabnine-vscode"
     ],
     "workspaceFolder": "/workspace/frontend"
 }

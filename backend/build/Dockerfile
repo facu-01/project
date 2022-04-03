@@ -28,3 +28,6 @@ RUN npm install -g yarn
 RUN gem install rails
 RUN gem install debug
 RUN gem install solargraph
+RUN gem install rubocop
+RUN gem install bundler
+RUN gem install pg
