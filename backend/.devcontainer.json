@@ -13,7 +13,6 @@
         "misogi.ruby-rubocop",
         //generales
         "eamodio.gitlens",
-        "TabNine.tabnine-vscode"
     ],
     // Open the sub-folder with the source code
     "workspaceFolder": "/workspace/backend"

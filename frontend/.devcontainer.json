@@ -11,9 +11,9 @@
         "vincaslt.highlight-matching-tag",
         "formulahendry.auto-rename-tag",
         "planbcoding.vscode-react-refactor",
+        "GitHub.copilot",
         //generales
         "eamodio.gitlens",
-        "TabNine.tabnine-vscode"
     ],
     "workspaceFolder": "/workspace/frontend"
 }
