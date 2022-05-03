@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # actualizamos
 RUN apt-get update && apt-get upgrade -y \
     # añadimos los basicos
-    && apt-get install -y git wget nano curl mlocate
+    && apt-get install -y git wget curl
 
 # instalamos zsh
 RUN apt-get install -y zsh

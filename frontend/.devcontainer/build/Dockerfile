@@ -5,7 +5,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # actualizamos
 RUN apt-get update && apt-get upgrade -y \
     # añadimos los basicos
-    && apt-get install -y git wget nano curl mlocate
+    && apt-get install -y git wget curl
 
 # instalamos zsh
 RUN apt-get install -y zsh
@@ -23,4 +23,4 @@ COPY .zshrc /root/.zshrc
 # instalamos los paquetes necesarios para react
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - 
 RUN apt-get install -y nodejs
-RUN npm install -g yarn
+# RUN npm install -g yarn
