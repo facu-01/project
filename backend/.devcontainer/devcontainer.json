@@ -3,16 +3,16 @@
     "dockerComposeFile": [
         "../../docker-compose.yml"
     ],
+    "workspaceFolder": "/workspace/backend",
     "service": "backend",
     "shutdownAction": "none",
     "extensions": [
         //ruby
-        "rebornix.ruby",
         "castwide.solargraph",
-        "wingrunr21.vscode-ruby",
-        "misogi.ruby-rubocop",
+        "kaiwood.endwise",
+        "rebornix.ruby",
+        "redhat.vscode-yaml",
         //generales
         "eamodio.gitlens",
     ],
-    "workspaceFolder": "/workspace/backend"
 }

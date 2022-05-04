@@ -26,8 +26,6 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm install -g yarn
 RUN gem install rails
-RUN gem install debug
 RUN gem install solargraph
-RUN gem install rubocop
-RUN gem install bundler
+#RUN gem install bundler
 RUN gem install pg
